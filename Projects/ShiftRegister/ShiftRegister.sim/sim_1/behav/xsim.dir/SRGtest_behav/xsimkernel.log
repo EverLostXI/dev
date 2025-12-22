@@ -1,0 +1,7 @@
+Running: xsim.dir/SRGtest_behav/xsimk.exe -simmode gui -wdb SRGtest_behav.wdb -simrunnum 0 -socket 58122
+Design successfully loaded
+Design Loading Memory Usage: 25472 KB (Peak: 25472 KB)
+Design Loading CPU Usage: 327 ms
+Simulation completed
+Simulation Memory Usage: 25920 KB (Peak: 25920 KB)
+Simulation CPU Usage: 342 ms

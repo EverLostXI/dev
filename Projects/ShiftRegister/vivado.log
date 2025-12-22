@@ -1,0 +1,137 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sat Dec 06 22:57:15 2025
+# Process ID: 24204
+# Current directory: D:/dev/ShiftRegister
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23048 D:\dev\ShiftRegister\ShiftRegister.xpr
+# Log file: D:/dev/ShiftRegister/vivado.log
+# Journal file: D:/dev/ShiftRegister\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/dev/ShiftRegister/ShiftRegister.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2016.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SRGtest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SRGtest_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sources_1/new/shiftregister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shiftregister
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sim_1/new/SRGtest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SRGtest
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 04d559be1fba4cf6966170f2123b74df --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SRGtest_behav xil_defaultlib.SRGtest -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1409] subtype of case expression is not locally static [D:/dev/ShiftRegister/ShiftRegister.srcs/sources_1/new/shiftregister.vhd:74]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.shiftregister [shiftregister_default]
+Compiling architecture behavioral of entity xil_defaultlib.srgtest
+ERROR: [XSIM 43-3345] Unable to remove previous simulation file xsim.dir/SRGtest_behav/xsimk.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: 拒绝访问。: "xsim.dir/SRGtest_behav/xsimk.exe".
+ERROR: [XSIM 43-3238] Failed to link the design.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SRGtest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SRGtest_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sources_1/new/shiftregister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shiftregister
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sim_1/new/SRGtest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SRGtest
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 04d559be1fba4cf6966170f2123b74df --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SRGtest_behav xil_defaultlib.SRGtest -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1409] subtype of case expression is not locally static [D:/dev/ShiftRegister/ShiftRegister.srcs/sources_1/new/shiftregister.vhd:74]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.shiftregister [shiftregister_default]
+Compiling architecture behavioral of entity xil_defaultlib.srgtest
+ERROR: [XSIM 43-3345] Unable to remove previous simulation file xsim.dir/SRGtest_behav/xsimk.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: 拒绝访问。: "xsim.dir/SRGtest_behav/xsimk.exe".
+ERROR: [XSIM 43-3238] Failed to link the design.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/simulate.log
+WARNING: [Vivado 12-3661] Failed to remove file:D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/xelab.pb
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'SRGtest' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj SRGtest_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sources_1/new/shiftregister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shiftregister
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sim_1/new/SRGtest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SRGtest
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav'
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto 04d559be1fba4cf6966170f2123b74df --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SRGtest_behav xil_defaultlib.SRGtest -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1409] subtype of case expression is not locally static [D:/dev/ShiftRegister/ShiftRegister.srcs/sources_1/new/shiftregister.vhd:74]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.shiftregister [shiftregister_default]
+Compiling architecture behavioral of entity xil_defaultlib.srgtest
+ERROR: [XSIM 43-3345] Unable to remove previous simulation file xsim.dir/SRGtest_behav/xsimk.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: 拒绝访问。: "xsim.dir/SRGtest_behav/xsimk.exe".
+ERROR: [XSIM 43-3238] Failed to link the design.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/dev/ShiftRegister/ShiftRegister.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit

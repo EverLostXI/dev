@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sources_1/new/shiftregister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity shiftregister
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/dev/ShiftRegister/ShiftRegister.srcs/sim_1/new/SRGtest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SRGtest

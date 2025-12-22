@@ -1,0 +1,1 @@
+-wto "04d559be1fba4cf6966170f2123b74df" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "SRGtest_behav" "xil_defaultlib.SRGtest" -log "elaborate.log" 

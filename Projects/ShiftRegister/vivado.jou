@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sat Dec 06 22:57:15 2025
+# Process ID: 24204
+# Current directory: D:/dev/ShiftRegister
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23048 D:\dev\ShiftRegister\ShiftRegister.xpr
+# Log file: D:/dev/ShiftRegister/vivado.log
+# Journal file: D:/dev/ShiftRegister\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/dev/ShiftRegister/ShiftRegister.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
